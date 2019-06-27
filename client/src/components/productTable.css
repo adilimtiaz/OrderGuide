@@ -1,0 +1,47 @@
+.market-container {
+    padding: 35px;
+    margin-top: 125px;
+}
+
+.card-panel {
+    font-family: "Lato", sans-serif !important;
+    padding: 40px 20px;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 0 20px 3px #e6e6e6;
+    border: none;
+    max-width: 650px;
+    overflow: hidden;
+    color: #354574;
+}
+
+.card-table {
+    max-width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    margin: 10px 20px 20px;
+}
+
+.div {
+    display: block;
+}
+
+.card-table .table-header {
+    padding: 0 25px;
+    text-align: left;
+}
+
+h5 {
+    font-size: 1.25rem;
+    color: #000000;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: inherit;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

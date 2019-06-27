@@ -27,7 +27,9 @@ const productSchema = new Schema({
     sellingPrice: Number,
     timestamp: Number,
     trackingId: String,
-    unitQuantiy: String
+    unitQuantity: String,
+    orderQuantity: Number,
+    minQuantity: Number
 });
 
 mongoose.model('products', productSchema);
