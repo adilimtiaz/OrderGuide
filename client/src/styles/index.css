@@ -1,0 +1,137 @@
+body{
+    font-family: "Lato", sans-serif !important;
+}
+
+.market-container {
+    padding: 35px;
+    margin-top: 125px;
+}
+
+.card-panel {
+    font-family: "Lato", sans-serif !important;
+    padding: 40px 20px;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 0 20px 3px #e6e6e6;
+    border: none;
+    max-width: 650px;
+    overflow: hidden;
+    color: #354574;
+}
+
+.card-table {
+    max-width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    margin: 10px 20px 20px;
+}
+
+div {
+    display: block;
+}
+
+.card-table .table-header {
+    padding: 0 25px;
+    text-align: left;
+}
+
+.card-table td{
+    font-size: 14px;
+    font-weight: 400;
+    border-top: 1px solid #f6f6f6;
+}
+
+h5 {
+    font-size: 1.25rem;
+    color: #000000;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: inherit;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+}
+
+.btn-container {
+    display: flex;
+    margin-top: 40px;
+}
+
+.btn-container a {
+    color: #3366FF;
+    padding: 8px 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.btn-secondary{
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: none !important;
+    border-radius: 50px;
+    background-color: #3366FF;
+    text-decoration: none !important;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding: 10px 25px;
+    flex: 1 1;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.market-modal{
+    max-width: 900px;
+    overflow: hidden;
+    border: none;
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: .5rem;
+    pointer-events: none;
+}
+
+.market-modal .modal-content .modal-header {
+    padding: 25px;
+    border-bottom: none;
+}
+
+.market-modal .modal-content .row, .market-modal .modal-content .col{
+    margin: 0;
+    padding: 0;
+}
+
+.alert-text{
+    color: #DB3069 !important;
+}
+.red-text {
+    color: #DB3069;
+    font-weight: 600;
+}
+

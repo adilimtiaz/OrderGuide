@@ -6,7 +6,7 @@ import reduxThunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import 'bootstrap/dist/css/bootstrap.css';
 
-import './index.css';
+import './styles/index.css';
 import App from './App';
 import reducers from './reducers';
 import * as serviceWorker from './serviceWorker';

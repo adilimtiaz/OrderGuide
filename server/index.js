@@ -1,10 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
-
-require('./models/products');
-const Products = mongoose.model('products');
-
+const bodyParser = require('body-parser');
 
 if (process.env.NODE_ENV !== 'production'){
     // Load env variables such as MONGO URI from .env file
@@ -19,10 +16,9 @@ mongoose.connect(process.env.MONGO_URI);
 
 const app = express();
 
-app.get('/api/products', async (req, res) => {
-    const allProducts = await Products.find({});
-    res.send(allProducts);
-});
+app.use(bodyParser.json());
+
+require('./routes/productRoutes')(app);
 
 if (process.env.NODE_ENV === 'production'){
     // If no routes found in express endpoints, check main.js (react build)
